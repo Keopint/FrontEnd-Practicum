@@ -2,25 +2,27 @@
 
 .rectangular-frame {
     width: 100%; /* Ширина рамки */
-    background-color: rgb(246, 218, 238);
+    background: linear-gradient(rgb(231, 182, 240), rgb(240, 221, 237));;
     border: 0cap;
     padding-top: 2%;
     padding-bottom: 5%;
 }
 
-.rectangular-frame h1{
-    font-size: 32px;
-    font-family: Arial; 
-}   
 
 .fs-24 {
     font-size: 20px;
 }
 
-.rectangular-frame p {
+.fs-16 {
     font-size: 16px;
-    font-family: Arial;    
-    width: 600px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.ml-10 {
+    margin-left: 10%;
 }
 
 
@@ -131,5 +133,9 @@
 
 .bc-blue {
     background-color: rgb(211, 244, 244);
+}
+
+.bc-light-blue {
+    background-color: rgb(243, 253, 253);
 }
 
