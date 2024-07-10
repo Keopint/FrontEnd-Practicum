@@ -4,7 +4,7 @@
     width: 100%; /* Ширина рамки */
     background-color: rgb(246, 218, 238);
     border: 0cap;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -13,6 +13,9 @@
     font-family: Arial; 
 }   
 
+.fs-24 {
+    font-size: 20px;
+}
 
 .rectangular-frame p {
     font-size: 16px;
@@ -45,23 +48,88 @@
 .inline-element {
     display: inline-block; /* Элементы будут расположены в строчку */
     margin-right: 10px; /* Отступ справа для каждого элемента */
+}
+
+  .ml-40 {
+    margin-left: 40%;
   }
 
-  .ml-300 {
-    margin-left: 300px;
+  .ml-2 {
+    margin-left: 2%;
   }
 
-  .ml-30 {
-    margin-left: 100px;
+  .ml-1 {
+    margin-left: 1%;
+  }
+
+  .mt-2 {
+    margin-top: 2%;
+  }
+
+  .pad-2 {
+    padding: 2%;
   }
 
 .head_link {
-    vertical-align: 20px;
-    font-size: 20px;
-    line-height: 24px;
+    vertical-align: 200%;
+    font-size: 16px;
     font-family: Lato, Arial, sans-serif, -apple-system;
     text-decoration: none;
     color: rgb(80, 80, 244);
 }
 
+.article {
+    font-family: Lato, Arial, sans-serif, -apple-system;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.shadow-block {
+    background: #fff;
+    box-shadow: 0 1px 4px #e3ebfc, 0 6px 16px #e6ebf5cc;
+    border-radius: 12px;
+    width: 70%;
+}
+
+.text {
+    font-family: Lato, Arial, sans-serif, -apple-system;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.align_left {
+    text-align:left;
+}
+
+.marker-type-1 li {
+    margin-bottom: 3%;
+}
+
+.marker-type-2 li {
+    margin-bottom: 20px;
+}
+
+.block-1 {
+    display: flex;    
+}
+.block-1-item-1 {
+    flex: 1;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+.block-1-item-2 {
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 15%;
+}
+
+.bc-blue {
+    background-color: rgb(211, 244, 244);
+}
 
