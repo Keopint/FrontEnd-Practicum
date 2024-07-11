@@ -43,6 +43,10 @@
     grid-column-gap: 15px;
 }
 
+.flex-2 {
+    display: flex;
+}
+
 .grid-2-col {
     padding: 1rem;
 }
@@ -217,8 +221,12 @@ ul.list-ul-style-dashed li::before {
 .vert-align {
     vertical-align: 180%;
     width: 10%;
-    
 }
 
+.mt-12 {
+    margin-top: 12%;
+}
 
-
+.ml-40 {
+    margin-left: 40%
+}
